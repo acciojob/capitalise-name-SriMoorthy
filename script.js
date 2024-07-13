@@ -1,7 +1,10 @@
 //your JS code here. If required.
 let Fname = document.getElementById('fname')
-let val = Fname.innerHTML.toUpperCase()
+// let str = ''
+// for (let i = 0; i < val.length; i++) {
+// 	str+=val[i].toUpperCase()
+// }
 
 Fname.addEventListener('mouseleave', () => {
-	document.getElementById('fname').value = val
+	Fname.value= Fname.value.toUpperCase()
 })
